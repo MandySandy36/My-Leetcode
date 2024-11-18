@@ -1,5 +1,5 @@
-/**
- * Definition for singly-linked list. */
+//Referred from https://medium.com/@ChrisBader/code-conquer-leetcode-2-add-two-numbers-d8f1ebd56bc4
+/* Definition for singly-linked list.
 public class ListNode {
     int val;
     ListNode next;
@@ -7,7 +7,7 @@ public class ListNode {
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-
+*/
 class Solution {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
         ListNode headNode = new ListNode();

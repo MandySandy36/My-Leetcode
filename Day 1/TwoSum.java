@@ -1,3 +1,4 @@
+// Referred from https://medium.com/@ChrisBader/code-conquer-leetcode-1-two-sum-1c5562b040af
 /* BruteForce Approach TC=O(n^2)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
