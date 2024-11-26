@@ -1,6 +1,6 @@
 //Referred From https://medium.com/@ChrisBader/code-conquer-leetcode-6-zigzag-conversion-5b4246b6117c
 
-//Naive (Bruteforce) Approach run at O(n*m) complexity as n =s.length() & m = numRows
+/*Naive (Bruteforce) Approach run at O(n*m) complexity as n =s.length() & m = numRows
 class Solution {
     public String convert(String s, int numRows) {
         // Edge Cases
@@ -31,7 +31,7 @@ class Solution {
         }
         return builder.toString();
     }
-}
+}*/
 
 //Better Solution using StingBuilder class with rows array as we know height of rows already
 class Solution {
